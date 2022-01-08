@@ -4,3 +4,5 @@ first creating objects then integration of the objects then it will be an applic
 methods:
 - access modifiers public, protected, default, private
 MAIN METHOD: Entry of any java program
+
+- new keyword is used to create an object
