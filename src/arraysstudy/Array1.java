@@ -1,11 +1,10 @@
-package ArraysStudy;
+package arraysstudy;
 
-import javax.swing.*;
 import java.util.Arrays;
 
 public class Array1 {
     // TO STORE MULTIPLE VALUES INTO A CONTAINER
-    // IIT CAN TAKE JSUT A SINGLE DATA TYPE
+    // IT CAN TAKE JSUT A SINGLE DATA TYPE
     //ACCEPT PRIMITIVE TYPE AS ELEMENT. WHEN IT IS STORE STRING(NONE PRIMITIVE) JAVA GOES TO HEAP AN FIND THE REFERENCES OF OBJECTS NOT THE STRING ITSELF
     public static void main(String[] args) {
         //creating array
