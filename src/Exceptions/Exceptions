@@ -1,0 +1,7 @@
+There two main types of exception
+
+1- Compile time (checked exceptions)
+2- run time (unchecked exceptions)
+
+-what is the meaning if platform independent
+-all exceptions are class in java

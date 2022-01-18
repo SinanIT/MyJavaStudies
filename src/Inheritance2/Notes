@@ -14,4 +14,8 @@ method Overriding
 
         --Method overloading compile time polymorphism. Called static polymorphism
         --Method overriding run time polymorphism. Called dynamic polymorphism
+        --final method can not override. Final method body can not be updated.
+        --private method can not be overridden.
+        --if return typ of parent method primitive it can not change when it is override.
+        --Static methods can not be overriding.
 
