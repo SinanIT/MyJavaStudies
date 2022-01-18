@@ -30,7 +30,7 @@ public class List06 {
         System.out.println(list1);
 
         // another addAll() we can add new lis to the specific index
-        list1.addAll(2,list2);
+        list1.addAll(2, list2);
         System.out.println(list1);
 
         //how to delete all elements from list2
@@ -50,29 +50,35 @@ public class List06 {
 
         //
         //list1.removeIf(t->t>35);
-       // System.out.println(list1);
-        list1.removeIf(t->t%2!=0);
+        // System.out.println(list1);
+        list1.removeIf(t -> t % 2 != 0);
         System.out.println(list1);
 
         //how to get a spesific part of a list
         //returning sub list
-        System.out.println(list2.subList(1,3));
+        System.out.println(list2.subList(1, 3));
 
         //how to convert list to array toArray()
         System.out.println(Arrays.toString(list2.toArray()));//[111, 222, 333, 444, 555]
 
         //how to convert array to list
-        // when create a list by using array some features transfer to list. Arrays are not flexible in size so in this stuation list will not be flexible in size.
+        // when create a list by using array some features transfer to list. Arrays are not flexible in size so in this situation list will not be flexible in size.
         //the methods are not related with length can be used in list which are created from arrays
-        Integer arr [] = {1,2,56,79};
-        List<Integer> list3 = Arrays.asList(arr);
-        System.out.println(list3);//[[I@58ceff1]
+        Integer arr[] = {1, 2, 56, 79};
+        List<Integer> list3 = new ArrayList<>();
+
+        //List<Integer> list3 = Arrays.asList(arr);
+        //System.out.println(list3);//[[I@58ceff1]
         //list3.remove(2);//UnsupportedOperationException
         //list3.clear();//UnsupportedOperationException
-        list3.set(1,63);
+        //list3.set(1,63);
         System.out.println(list3);
+        int i = 0;
+        do {
+            list3.add(arr[i]);
+            i++;
+        } while (i < arr.length);
 
-
-
+        System.out.println(list3);
     }
 }
