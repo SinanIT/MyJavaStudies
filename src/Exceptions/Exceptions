@@ -5,3 +5,8 @@ There two main types of exception
 
 -what is the meaning if platform independent
 -all exceptions are class in java
+
+--exceptions are unexpected errors in Java
+-- It can handle by using try catch blocks
+-- ArithmeticException is thrown by Java in RunTime if there is any issue in Mathematical Operations
+--FileNotFoundException occurs in Compile Time, if there is any issue in the Path of the file or in the existence of the file

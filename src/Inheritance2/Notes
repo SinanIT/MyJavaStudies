@@ -18,4 +18,11 @@ method Overriding
         --private method can not be overridden.
         --if return typ of parent method primitive it can not change when it is override.
         --Static methods can not be overriding.
+        --final classes can not have child classes
+
+        If we use FINAL for;
+        -Method: No update in bosy, no overriding
+        -Class: No inheritance or no child class
+        -Variable: Value of the variable can not be updated.(final variables must be initialize)
+
 

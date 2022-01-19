@@ -3,6 +3,7 @@ package Inheritance;
 public class Animal {
     public int height;
     public int weight;
+    public String name;
 
 
     public Animal() {
@@ -24,6 +25,6 @@ public class Animal {
     }
 
     public void drink() {
-        System.out.println("They drink ...");
+        System.out.println("Animals drink ...");
     }
 }

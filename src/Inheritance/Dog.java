@@ -2,6 +2,8 @@ package Inheritance;
 
 public class Dog extends Mammal {
     public boolean smellWell;
+    public boolean tail;
+    public int birthYear;
 
     public Dog() {
 
