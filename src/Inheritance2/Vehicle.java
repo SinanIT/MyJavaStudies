@@ -1,7 +1,7 @@
 package Inheritance2;
 
 public class Vehicle {
-    int speed= 20;
+    int speed;
 
     public void move(){
         System.out.println("Vehicles moves");
