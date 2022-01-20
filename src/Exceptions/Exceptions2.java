@@ -11,10 +11,6 @@ public class Exceptions2 {
         System.out.println(divide(0, 2));
         System.out.println(divide(4, 0));
 
-
-
-
-
     }
     public static int divide(int a, int b){
 

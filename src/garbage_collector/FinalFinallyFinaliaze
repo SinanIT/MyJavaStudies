@@ -1,0 +1,25 @@
+ //Java delete unpointed objects
+            //1-finalize() has to be executed before garbage collector.
+
+            //2-Destroy
+
+    //garbage method destroys finalized objects.Java decides when and how to destroy them
+
+
+    /*
+    final: is a keyword
+                FINAL VARIABLES:
+                    -- Must be initialize
+                    -- Their values can not be modified.
+                    -- Should be named in UPPER_CASE
+
+                FINAL METHODS:
+                     -- Final methods can NOT be overridden( Final methods body) but can be Overloaded
+                FINAL CLASSES:
+                     -- Final classes can not have a child classes. No inheritance, no extends.
+
+    finally: is a code block with try catch blocks.
+            -- it is executed when the exception is thrown or not.
+            -- it is used to end connections with database, cloud or it is used to close a file
+
+    finalize: is a  method that executed before garbage collector destroy the object.

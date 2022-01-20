@@ -1,0 +1,15 @@
+Interface:
+-- it is not a class, no main method in it
+-- interface can contain just abstract methods, no concrete methods.
+-- A method in an interface can have public access modifiers only.
+-- interfaces provide fully abstractions.
+Why do we need interfaces while we have abstract classes.
+--Java doesn't support multiple inheritance. A class can Not have multiple parent but sometimes we need multiple parents because of that Java created Interfaces.
+When do we use interfaces?
+    -- If we want to create multiple parents for a class we use it
+    -- interfaces are lie a to do list, if you a child class to do smth, put them into interface
+    -- Interface focus on functionality not the implementations
+    -- Abstract method focus on implementations not the functionality
+
+    ** variables in interface public static and final automatically- as default
+    ** All methods below are public and abstract.

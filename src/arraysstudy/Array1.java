@@ -9,7 +9,7 @@ public class Array1 {
     public static void main(String[] args) {
         //creating array
 
-        int array1[] = new int[5];
+        int[] array1 = new int[5];
         array1[0] = -2;
         array1[1] = 11;
         array1[2] = 27;
@@ -19,7 +19,7 @@ public class Array1 {
 
         //or
 
-        String array2[] = {"Ali", "Can", "Kemal", "Mary"};
+        String[] array2 = {"Ali", "Can", "Kemal", "Mary"};
         System.out.println(Arrays.toString(array2));
 
         //Update

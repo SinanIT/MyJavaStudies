@@ -1,0 +1,11 @@
+Abstractions:
+
+-- Abstract methods can NOT be PUT in concrete classes. Classes must be abstract.
+-- When we make a "concrete class" child of abstract class we have to implement "abstract methods" otherwise will get compile time error.
+-- If child class is abstract no need to override abstract methods.
+-- after override we have to create our implementation
+-- when we override an abstract method it should turn to  concrete methods
+-- We can not create an Object by using Abstract classes.
+-- An abstract class may or may not abstract method.
+-- Interface focus on functionality not the implementations
+-- Abstract method focus on implementations not the functionality
