@@ -1,4 +1,4 @@
-package arraysmultidementionalarrays;
+package List;
 
 import java.util.ArrayList;
 import java.util.Collections;

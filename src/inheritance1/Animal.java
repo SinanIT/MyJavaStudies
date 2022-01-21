@@ -15,7 +15,7 @@ public class Animal {
         System.out.println("Animal class with int parameter...");
     }
 
-    public Animal(int weight, int height ) {
+    public Animal(int weight, int height) {
         this.weight = weight;
         this.height = height;
     }

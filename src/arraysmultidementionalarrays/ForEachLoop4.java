@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ForEachLoop4 {
     //Create two list
-    // print common elemenets
+    // print common elements
     //
 
     public static void main(String[] args) {

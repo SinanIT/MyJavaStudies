@@ -1,6 +1,6 @@
 package inheritance2;
 
-public class Vehicle {
+public class Vehicle1 {
 
     public void move() {
         System.out.println("Vehicles moves");

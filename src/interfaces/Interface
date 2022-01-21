@@ -7,9 +7,28 @@ Why do we need interfaces while we have abstract classes.
 --Java doesn't support multiple inheritance. A class can Not have multiple parent but sometimes we need multiple parents because of that Java created Interfaces.
 When do we use interfaces?
     -- If we want to create multiple parents for a class we use it
-    -- interfaces are lie a to do list, if you a child class to do smth, put them into interface
+    -- interfaces are like a to do list, if you a child class to do smth, put them into interface
     -- Interface focus on functionality not the implementations
     -- Abstract method focus on implementations not the functionality
 
     ** variables in interface public static and final automatically- as default
     ** All methods below are public and abstract.
+
+-- Interfaces don't have constructors while abstract classes has. But the constructor for abstract classes doesn't use to create object.
+-- when a concrete class has multiple parent interfaces my have methods whose signature and return types are same. it is allowed. For the methods return type and method sinature has to be same.
+-- when interface being a child another interface we use extends keyword
+-- if an interface implement another interface no need to override abstract methods
+
+
+-- after Java 8 we can create method with body in interface
+    two way for this:
+        1- Put default before return type. It is not an access modifier here. And these methods are called default method. OR
+        2- use static keyword before return type
+
+        What is diffrence between Default and Static methods in a interface:
+        --default methods can be call judt by objects but static methods can be called by using interface names
+
+-- If you create default or static methods in ana interface overriding them is optional.
+-- if you don't use interface you can not do multiple inheritance.
+
+

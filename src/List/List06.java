@@ -1,4 +1,4 @@
-package arraysmultidementionalarrays;
+package List;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -80,5 +80,20 @@ public class List06 {
         } while (i < arr.length);
 
         System.out.println(list3);
+
+        //How to convert a List to an Array
+        List<Integer> list = new ArrayList<>();
+        list.add(12);
+        list.add(15);
+        list.add(11);
+        list.add(8);
+
+        System.out.println(list);//[12, 15, 11, 8]
+
+        //In the code "new Integer[0]", data type depends on the data type of the list elements.
+        //In the example, data type of the list elements is Integer because of that I used Integer
+        Integer arr2[] = list.toArray(new Integer[0]);
+
+        System.out.println(Arrays.toString(arr2));//[12, 15, 11, 8]
     }
 }

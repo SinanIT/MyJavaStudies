@@ -7,8 +7,7 @@ public class Runner1 {
         Audi audi = new Audi();
         audi.move();
         audi.numOfTires();
-//        Vehicle vehicle = new Vehicle();
-//        System.out.println(vehicle.speed);
+        Vehicle1 vehicle1 = new Vehicle1();
 
     }
 }
