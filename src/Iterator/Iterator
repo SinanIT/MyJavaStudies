@@ -5,3 +5,5 @@
 3- Iterator and List iterator are interfaces
 
 4- hasNext();, next();, remove(), forEachRemaining(),
+
+5- Iterator can traverse only forward direction

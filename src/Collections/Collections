@@ -1,0 +1,23 @@
+if something is collection it is flexible in size
+
+COLLECTION:
+
+1- List - (interface).List has no constructor because it is interface.
+    1- ArrayList  (Class) List<Integer> list = new ArrayList<>();
+    2- LinkedList  (Class) List<Integer> list = new LinkedList<>(); It has multiple inheritance (Queue)
+
+2- Queue - interface
+            1- PriorityQueue  (Class)
+            2- Deque (Interface)
+
+3- Set- Interface
+        1- HashSet (Class)
+        2- LinkedHashSet (Class)
+        3- SortedSet (Interface)
+                    - TreeSet (Class)
+
+
+* If you see set that means there is no duplication in elements. Elements are Uniq in every set.
+
+
+** By selecting data type as OBJECT  or by not declaring data type you can store multiple data types in a collection

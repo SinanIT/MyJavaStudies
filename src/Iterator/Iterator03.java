@@ -1,6 +1,7 @@
 package Iterator;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -26,8 +27,9 @@ public class Iterator03 {
         }
         System.out.println();
         System.out.println(list);
-
-
+        System.out.println();
+        Collections.reverse(list);
+        System.out.println(list);
 
     }
 }
