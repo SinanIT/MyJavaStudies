@@ -17,6 +17,7 @@ public class LinkedHashSet01 {
         LinkedHashSet<String> lhs1 = new LinkedHashSet<>();
         lhs1.add("A");
         lhs1.add("B");
+        lhs1.add("F");
         System.out.println(lhs1);
 
         LinkedHashSet<String> lhs2 = new LinkedHashSet<>();
@@ -29,8 +30,10 @@ public class LinkedHashSet01 {
         System.out.println(lhs1.hashCode());//1814818341
 
         //Of you want to get common elements from two collections, use retainAll()
+        //If there is no deleted element from the first list retainAll() returns false
         System.out.println(lhs2.retainAll(lhs1));//true
         System.out.println(lhs2);
+        System.out.println(lhs1);//[A, B, F]
 
 
 

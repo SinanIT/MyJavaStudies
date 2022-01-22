@@ -1,0 +1,13 @@
+Thread means task.
+
+It allows concurrent execution of two or more parts of a program for maximum utilization of CPU.
+Each part of such program is called a Thread
+Threads can be created by using two mechanisms
+1- extending Thread class
+2- Implementing Runnable interface
+
+Why do we need multithreading:
+To save time Jva uses multithreading but if we doesn't organize it complicated. We need to create Synchronization
+
+What is Synchronization:
+there is locking and unlocking.
