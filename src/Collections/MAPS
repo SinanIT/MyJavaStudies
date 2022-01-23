@@ -24,3 +24,9 @@ HashMap:
 3- it is NOT Synchronized.
 4- HashMap can have single null in keys part.
 5- HashMap can have single null in value part.
+
+How HashMap works internally in Java
+1- If you fill 75% of buckets Java create new 16 buckets. This is called Load Factor.
+2- Java Creates "hashCode" by using "Key", then converts it to existing indexes. Aftr that put the data into bucket using the index.
+3- Sometimes indexes which are created from HashCode can be same. Tgis called "Hash Collision".
+4- Java uses LinkedList in every bucket. If HAsh Collision occurs Java can put multiple data into the bucket using LinkedList structure.

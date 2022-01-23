@@ -1,4 +1,4 @@
-package Lamda;
+package Collections;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -21,7 +21,7 @@ public class ConverCsvToMap {
         HashMap<String, String> hm = new HashMap<>();
 
         try {
-            bufferedReader = new BufferedReader(new FileReader("E:/inteleij/src/Lamda/MyNewFile.csv"));
+            bufferedReader = new BufferedReader(new FileReader("E:\\inteleij\\src\\Collections\\MyNewFile.csv"));
             String line = bufferedReader.readLine();
             while (line != null) {
                 listLines.add(line);

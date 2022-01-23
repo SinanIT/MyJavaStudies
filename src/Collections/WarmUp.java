@@ -1,4 +1,4 @@
-package Lamda;
+package Collections;
 
 public class WarmUp {
     //TODO:Create a method to print an integers from 0 to 100 without using any integer

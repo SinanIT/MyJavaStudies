@@ -7,10 +7,10 @@
 - adding and deleting element is very easy and fast. Pointer is changing that's it. LinkedList doesn't use INDEX.We can select the element by index but smth works different behind the scene
         - if your app is doing constantly adding and removing elements so use LinkedList
         - If your data not change often use arraylist
-        - ArrayList is very successful in search operations. To update the element Array List is the best. UPDATING AND SEARCHING
+        - ArrayList is very successful in search operations. To update the element Array list is the best. UPDATING AND SEARCHING
 - Array list is slow because Java needs to update all indexes of the arrayList.
 
 --If you want to use Queue methods for a linked list use Queue as data type
         Queue<String > linkedList = new LinkedList<>();
---If you want to use List methods for a linked list use List as data type
-        List<String > linkedList = new LinkedList<>();
+--If you want to use list methods for a linked list use list as data type
+        list<String > linkedList = new LinkedList<>();

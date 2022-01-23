@@ -2,7 +2,7 @@
 
 2- LisIterator is more functional than iterator
 
-3- Iterator and List iterator are interfaces
+3- Iterator and list iterator are interfaces
 
 4- hasNext();, next();, remove(), forEachRemaining(),
 

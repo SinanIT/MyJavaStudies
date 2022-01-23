@@ -1,0 +1,9 @@
+TreeMap puts the elements in natural order
+
+Uses Keys to put element in natural order
+
+TreeMap is not Thread-Safe and synchronized
+
+TreeMap allows to use null in values many times but doesn't allow to use in keys.
+
+It is sloe like TreeSet
