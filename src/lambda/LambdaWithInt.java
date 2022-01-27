@@ -8,8 +8,6 @@ public class LambdaWithInt {
 
     //TODO: Create a programming to print even list elements on the console in same line with a space between two consecutive elements In Structured Programming
     //Do same in functional programming
-
-
     public static void main(String[] args) {
 
         List<Integer> l = new ArrayList<>();

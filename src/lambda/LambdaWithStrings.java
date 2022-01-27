@@ -7,7 +7,6 @@ import java.util.List;
 public class LambdaWithStrings {
     public static void main(String[] args) {
 
-        int var_5 = 0;
         List<String> list = new ArrayList<>();
         list.add("Ali");
         list.add("Mark");
@@ -59,7 +58,7 @@ public class LambdaWithStrings {
 
     //note: sorted method puts element in natural order
     public static void sortWithLength(List<String> list) {
-        list.stream().map(String::toUpperCase).sorted(Comparator.comparing(String::length)).forEach(t -> System.out.print(t + " "));
+        list.stream().map(t->t.toUpperCase()).sorted(Comparator.comparing(t->t.length())).forEach(t -> System.out.print(t + " "));
     }
 
     //TODO: Create a method to print list elements in lowercase's after ordering according to their last character
