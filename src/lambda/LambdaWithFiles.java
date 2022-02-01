@@ -16,11 +16,23 @@ public class LambdaWithFiles {
 //        }
 
         //print all distinct words
+//        try {
+//            Files.lines(Paths.get("E:/inteleij/src/lambda/LambdaFile.txt"))
+//                    .map(t->t.split(" ")).flatMap(Arrays::stream).map(t->t.replaceAll("\\W", ""))
+//                    .distinct().forEach(t-> System.out.println(t + " "));
+//        } catch (IOException e) {
+//
+//            System.out.println(" Could not read the file" + e.getMessage());
+//        }
+
         try {
             Files.lines(Paths.get("E:/inteleij/src/lambda/LambdaFile.txt"))
-                    .map(t->t.split(" ")).flatMap(Arrays::stream).map(t->t.replaceAll("\\W", ""))
-                    .distinct().forEach(t-> System.out.println(t + " "));
+                    .map(t->t.split(" ")).flatMap(Arrays::stream)
+                    .map(t->t.replaceAll("\\W", ""))
+                    .filter(t->t.contains("e"))
+                    .forEach(System.out::println);
         } catch (IOException e) {
+
             System.out.println(" Could not read the file" + e.getMessage());
         }
     }
