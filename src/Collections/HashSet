@@ -1,0 +1,5 @@
+HashSet
+1- Doesn't put the elements in any order. It puts elements in random order.
+2- HashSet does NOT contain  repeated elements
+3- "null" can be used in HashSet just ones
+4- By selecting data type as OBJECT  or by not declaring data type you can store multiple data types in a collection
