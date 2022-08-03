@@ -1,0 +1,9 @@
+What us the diffrence between HashMap and HashTable
+
+-- HashMap accept NULL in Key just once and in value many times.
+HASTABLE DOES NOT ACCEPT NULL IN ANYWHERE
+
+-- HashMap is not thread safe. You can not use HashMap for multi threads. It is for single threads. USE HASHTABLE.
+HASHTABLE IS THREADSAFE AND SYNCHRONIZED (SLOW)
+
+NOTE : BOTH ARE PUT ELEMENTS IN RANDOM ORDER

@@ -43,6 +43,9 @@ public class PassByValuesPassByReference {
         System.out.println(a.equals(c));
         System.out.println(a.equals(d));
 
+
+        scanner.close();
+
     }
 
     public static int discount(int price) {

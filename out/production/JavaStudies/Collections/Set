@@ -1,0 +1,3 @@
+-- Set means no duplication
+-- Tree means sorted un "natural order"==> ascending orders for numbers, alphabetical orders for characters
+-- Unique elements in natural order
