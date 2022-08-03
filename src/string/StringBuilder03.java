@@ -1,4 +1,4 @@
-package arraysmultidementionalarrays;
+package string;
 
 public class StringBuilder03 {
     public static void main(String[] args) {

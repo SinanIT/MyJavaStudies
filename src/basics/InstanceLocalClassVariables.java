@@ -22,8 +22,8 @@ public class InstanceLocalClassVariables {
          --Class variables attaches to the Class
          *
          THE MAIN DIFFRENCE BETWEEN Instance(object) and Class(static) variable is that;
-         1- All updates on static variable visible by all objects whic are created from the class
-         * but all uodates on instance variable is just visible by object
+         1- All updates on static variable visible by all objects which are created from the class
+         * but all updates on instance variable is just visible by object
          2- Static variables are common for all objects, but instance variables are specified for an object
 
     * */
@@ -32,7 +32,7 @@ public class InstanceLocalClassVariables {
     * LOCAL VARIABLE
             1- If a variable created inside the method it called local variable
             * -- For local variables there is no DEFAULT value. They should assign a value.
-            * -- Local variables which are created din a static methods are static automatically.
+            * -- Local variables which are created in a static methods are static automatically.
     *
     * */
 

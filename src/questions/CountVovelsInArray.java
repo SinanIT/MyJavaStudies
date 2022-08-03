@@ -1,10 +1,9 @@
-package arraysmultidementionalarrays;
+package questions;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class ForEachLoop3 {
-
-
+public class CountVovelsInArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int aCounter=0;

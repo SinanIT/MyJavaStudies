@@ -1,11 +1,10 @@
-package arraysmultidementionalarrays;
+package questions;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ForEachLoop5 {
-
+public class RemoveRepeatedElementsFromList {
     //remove repeated elements from list
     public static void main(String[] args) {
         List<String> strings = new ArrayList<>();

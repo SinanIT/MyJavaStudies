@@ -13,8 +13,7 @@ public class WarmUp1 {
         System.out.println(getNegativeElements2(arr));
     }
 
-    //TODO: Create a method to store all negative elements in a list then
-    //print the list.
+    //TODO: Create a method to store all negative elements in a list then print the list.
     //Structeres programming
     public static List<Integer> getNegativeElements(int arr[][]) {
         List<Integer> negatives = new ArrayList<>();

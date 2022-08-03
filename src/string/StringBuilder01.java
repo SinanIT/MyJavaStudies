@@ -1,4 +1,4 @@
-package arraysmultidementionalarrays;
+package string;
 
 import com.sun.security.jgss.GSSUtil;
 

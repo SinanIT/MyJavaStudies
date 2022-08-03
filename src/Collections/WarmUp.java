@@ -10,7 +10,7 @@ public class WarmUp {
         Character c1 = 'e'-'e';
         Character c2 = 'e';
 
-        for (Character i =c1; i<c2; i++){
+        for (Character i = c1; i<c2; i++){
             System.out.println((int)i);
         }
     }

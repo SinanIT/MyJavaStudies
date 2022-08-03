@@ -1,4 +1,4 @@
-package arraysmultidementionalarrays;
+package arraysstudy;
 
 import javax.swing.*;
 import java.util.Arrays;

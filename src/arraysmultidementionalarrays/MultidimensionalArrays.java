@@ -12,7 +12,8 @@ public class MultidimensionalArrays {
         int arr1 [][]= {{7,11,5},{71,12},{9}};
 
         //to print multidimensional arr we use deepToString()
-        System.out.println(Arrays.deepToString(arr1));
+        System.out.println(Arrays.deepToString(arr1)); //[[7, 11, 5], [71, 12], [9]]
+
 
         //specific element print out
         System.out.println(arr1[1][1]);
@@ -20,7 +21,7 @@ public class MultidimensionalArrays {
         //updating element
         arr1[0][2]= 88;
         arr1[2][0]= 19;
-        System.out.println(Arrays.deepToString(arr1));
+        System.out.println(Arrays.deepToString(arr1));// [[7, 11, 88], [71, 12], [19]]
 
         //printing first array
         System.out.println(Arrays.toString(arr1[2]));

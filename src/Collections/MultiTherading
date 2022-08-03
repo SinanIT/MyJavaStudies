@@ -7,7 +7,7 @@ Threads can be created by using two mechanisms
 2- Implementing Runnable interface
 
 Why do we need multithreading:
-To save time Jva uses multithreading but if we doesn't organize it complicated. We need to create Synchronization
+To save time Java uses multithreading but if we doesn't organize it complicated. We need to create Synchronization
 
 What is Synchronization:
 there is locking and unlocking.

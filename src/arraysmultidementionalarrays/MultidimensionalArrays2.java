@@ -19,7 +19,7 @@ public class MultidimensionalArrays2 {
         }
         System.out.println(target);//Bee
 
-        // Find bee
+         //Find bee
         String bee="";
         for (int i = 0; i < sarray.length; i++) {
             for (int j = 0; j < sarray[i].length; j++) {

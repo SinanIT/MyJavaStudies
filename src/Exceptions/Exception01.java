@@ -29,14 +29,14 @@ public class Exception01 {
         try {
             fis = new FileInputStream("C:/Users/Yasin/Desktop/myFile.txt");
 
-            int k=0;
-                while ((k =fis.read()) !=-1){ //read method ges the file read the first character
-                    System.out.print((char) k);
-                }
+            int k = 0;
+            while ((k = fis.read()) != -1) { //read method ges the file read the first character
+                System.out.print((char) k);
+            }
         } catch (FileNotFoundException e) { //FileNotFoundException is child of IOException
             e.printStackTrace();
             System.out.println("File is deleted or path is wrong. " + e.getMessage());
-        } catch (IOException e){
+        } catch (IOException e) {
             System.out.println("File couldn't read");
         }
     }

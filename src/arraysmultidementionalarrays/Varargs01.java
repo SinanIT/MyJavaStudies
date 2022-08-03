@@ -2,7 +2,7 @@ package arraysmultidementionalarrays;
 
 public class Varargs01 {
     public static void main(String[] args) {
-        // If i wamt to a method to run with diffrent number of arguments use varargs
+        // If i want to a method to run with different number of arguments use varargs
         //varags behaves like list but behind the varargs arrays work
         //To declare a varargs use "int...a" or "String... s" etc.
         //Varargs maust be the last parameter inside the method parenthesis
@@ -16,8 +16,8 @@ public class Varargs01 {
         System.out.println(a);
         System.out.println(a=="2cfalse");//false
 
-        Go(1, "Hello");
-        Go(2, "Hello", "Hi");
+        Go(1, "Hello", "whats-up");
+        Go(3, "Hello", "Hi", "Hello");
 
     }
 //    public static int add1(int a, int b){
@@ -32,7 +32,7 @@ public class Varargs01 {
         return sum;
     }
     public static void Go(int x, String...y){
-        System.out.print(y[y.length-x] + " ");
+        System.out.println(y[y.length-x] + " ");
 
     }
 }
