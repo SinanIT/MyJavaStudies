@@ -1,8 +1,0 @@
-PriorityKey Put the elements in order which Java decides.
-if we want we can create a rule, and order the elements according to it.
-Queue has two child LinkedList and PriorityQueue
-
-PriorityQueue is used in FIFO.
-
-Deque: Double ended queue
-If you want to use FIFO and LIFO together, you can use Deque. It has to many methods.

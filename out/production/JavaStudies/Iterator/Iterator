@@ -1,9 +1,0 @@
-1- By using loops we can not update collections but using iterator or list iterator
-
-2- LisIterator is more functional than iterator
-
-3- Iterator and list iterator are interfaces
-
-4- hasNext();, next();, remove(), forEachRemaining(),
-
-5- Iterator can traverse only forward direction
