@@ -2,11 +2,9 @@ package questions;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashSet;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class FindNonRepaeatedElements {
+public class FindNonRepeatedElements {
     public static void main(String[] args) {
 
 
@@ -22,12 +20,12 @@ public class FindNonRepaeatedElements {
         list.add(3);
 
 
-        //System.out.println(noneRepeatedElements(list));
+        System.out.println("None Repeated Element/s : " + noneRepeatedElements(list));
 
         //second way
-        list.stream()
-                .filter(number -> Collections.frequency(list, number) == 1)
-                .collect(Collectors.toList()).stream().sorted().forEach(System.out::println);
+//        list.stream()
+//                .filter(number -> Collections.frequency(list, number) == 1)
+//                .collect(Collectors.toList()).stream().sorted().forEach(System.out::println);
 
         //Unique elements of the list
         //new HashSet<>(list).forEach(System.out::println);
@@ -40,6 +38,7 @@ public class FindNonRepaeatedElements {
         for (Integer w : list) {
             str += w;
         }
+        System.out.println("Str: " + str);
 
 
         for (int i = 0; i < str.length(); i++) {
@@ -47,14 +46,8 @@ public class FindNonRepaeatedElements {
                 result.add(str.substring(i, i + 1));
             }
         }
-        Collections.sort(result);
+        //Collections.sort(result);
         return result;
     }
-
-    public static void sum(){
-
-    }
-
-
 }
 

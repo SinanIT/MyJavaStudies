@@ -1,0 +1,27 @@
+Interfaces those are extends Queue
+1-Dequeue
+2-BlockingQueue
+3-BlockingDequeue
+
+
+**** if you have a group of elements which are priority processing we use queue
+
+FIFO: Queue concept follows First in first Out concepts
+
+
+Classes extends Queue are PriorityQueue  and LinkedList(This is also implement List interface)
+
+what is the difference between PriorityQueue and LinkedList?
+similarities: duplication is allowed. Insertion order preserve.
+LinkedList can hold hetro genius data. but PriorityQueue can not hold hetro genius data.
+
+methods:
+add() add element to queue. It returns true if addition is successful otherwise throw exception.
+offer() add element to queue. If returns true if addition is successful otherwise return False.
+
+element() returns the head element of the queue. If the queue is empty element method throws no such element exception.
+peek()  returns the head element of the queue If the queue is empty peek returns Null
+
+remove() return the header element and remove it from queue. If the queue is empty this method throws an exception.
+poll() return the header element and remove it from queue. If the queue is empty this method returns NULL
+

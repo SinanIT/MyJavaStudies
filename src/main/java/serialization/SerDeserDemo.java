@@ -8,7 +8,7 @@ public class SerDeserDemo {
     public static void main(String[] args) {
         Student student = new Student("John", 25, "CA");
 
-        String fileName = "C:\\Users\\sinan\\OneDrive\\Documents\\Projects\\MyJavaStudies\\testData\\students.txt;";
+        String fileName = "C:\\Users\\sinan\\OneDrive\\Documents\\Projects\\MyJavaStudies\\testData\\Students.txt;";
         FileOutputStream fileOut = null;
         ObjectOutputStream objOut = null;
 
@@ -36,8 +36,10 @@ public class SerDeserDemo {
             objIn = new ObjectInputStream(fileIn);
 
             Student object = (Student) objIn.readObject();
+            objIn.close();
+            fileIn.close();
 
-            System.out.println(" Object has been deserialized: \n" + object);
+            System.out.println("Object has been deserialized: \n " + object);
         }catch (IOException | ClassNotFoundException e){
             System.out.println("IOException ||ClassNotFoundException is caught. " + e.getMessage());
         }

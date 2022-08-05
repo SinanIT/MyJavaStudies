@@ -1,0 +1,48 @@
+map is independent interface. MAP is collection of entries.
+
+when we use it?
+if we have key and value pair object we use map. Every key and every value are object.
+
+    -- No Duplicate Key allowed but value can be duplicate.
+    -- Every Key value ste is Entry. Map is collection of entries.
+
+HasMap and HashTable classes implement MAp interface.
+
+HashMap: CLASS
+        -- Underlying data structure is HashTable
+        -- Insertion order is NOT preserve
+        -- No duplicate key allowed but values can be stored in HashMap
+        -- Null key is allowed only ones.
+
+        whenever we have more number of search operations we use hashmap
+
+Methods
+
+put(Key, Value)  add an entry to hashmap
+putAll(anotherMap) add map map to another map
+get(Key); it returns the value of Key
+
+remove(Key) it removes the entry
+containsKey(key) it returns boolean value
+containsValue(Value) it returns boolean
+isEmpty() it returns boolean value
+size() it returns size of map
+clear() it removes all entries from Map
+
+Methods related to Entries
+keySet()  it retrieves all keys from Map. This method returns type is Set
+values() it returns all the values from Map This method returns type is Collection
+
+entrySet() it returns all the entry set as a SET
+
+ENTRY interface which is inside the HashMap. It is sub interface
+
+getKey()
+getValue()
+setValue()
+
+
+
+
+
+

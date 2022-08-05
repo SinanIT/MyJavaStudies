@@ -1,0 +1,17 @@
+Set extends Collection
+
+ -- NO duplication
+ -- order is random
+ -- HashSet insert the elements according to hashcode
+ -- no index
+ -- hetro genius data supported
+ -- can hold null data
+ -- initial size 16 by default
+ -- load factor/ fill ratio id 0.75
+
+    load factor: one the hash set size reach 0.75 of the size new hashset object created and old one goes to garbage
+
+    we can configure initial value and fill ratio
+    HashSet hs = new HashSet(100, 0.95)
+
+ -- HashSet has no specific methods. it has all Collection interface methods.

@@ -1,0 +1,7 @@
+the difference between asset and linked hashset are:
+
+    HashSet                             LinkedHashSet
+    no duplication                      no duplication
+    no insertion order                  Insertion Order
+    data structure is has table         hashtable + linked-list structure ==> elements inserted in same order
+    initials size 16. load factor 0/75  initials size 16. load factor 0/75

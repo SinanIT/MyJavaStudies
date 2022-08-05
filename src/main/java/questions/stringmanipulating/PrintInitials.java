@@ -16,7 +16,7 @@ public class PrintInitials {
             System.out.println("Enter a full name");
             names.add(scanner.nextLine());
             i++;
-        } while (i < 5);
+        } while (i < 1);
         System.out.println(names);
 
         //Create a list for initials

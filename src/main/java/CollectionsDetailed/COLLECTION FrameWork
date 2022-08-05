@@ -1,0 +1,69 @@
+1- It is group of objects.
+    -  its is single entity which is representing multiple objects.
+    -  Collection framework: group of classes and interfaces by which we can represent group of objects into single entity.
+    ==> array can hold only same type of data.
+    if we create Object of Array we can store in array multiple data.
+    ==> Array fixed in size. it is not growable in nature.
+    ==> Arrays is not implemented any data structure.
+
+    To overcome these limitations we use Collection framework
+
+    Array                                       Collections
+    == fix size                                 == growable in nature
+    == Home-genius data                         == Homo and Hetro genius data
+    == There is no underlying data structure    == Implemented by using underlying data structure
+
+    MAIN INTERFACES of Collection Framework
+    1- Collection Interface == root interface
+    its's METHODS ===>
+    https://www.geeksforgeeks.org/collection-interface-in-java-with-examples/
+    add(Object o), addAll(Collection c), remove(Object o), removeAll(Collection c), retainAll(Collection c),
+    isEmpty(), size(), contains(Object o), toArray(T[] a), iterator() etc
+
+    Collections == it is a pre defined CLASS from java.utils package. It has to many methods that we use them for collection objects. Like sort method.
+
+    2- LIST interface extends Collection methods ==> get(index), set(index, object)
+    -- Child of Collection.
+    -- Insertion Order preserve
+    -- Duplication allowed
+                        == ArrayList class
+                                -- java.util
+                                -- growable
+                        == LinkedList class
+                        == Vector and Stack (Legacy classes)
+
+    3- SET interface extends Collection
+    -- Child of Collection.
+    -- Insertion order NOT Preserve
+    -- Duplication NOT allowed
+                            == HashSet class
+                            == LinkedHashSet class
+
+    4- Queue interface extends Collection
+    -- Child of Collection.
+    -- when there is priority processing we use queue (FIFO)
+                            == PriorityQueue class
+
+    INDEPENDENT INTERFACE ====> MAP INTERFACE
+    -- Key and Value pairs
+    -- No duplicate KEY, Value can be duplicated
+                                    == HashMap class
+                                    == LinkedHashMap class
+                                    == HashTable class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

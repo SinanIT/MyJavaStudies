@@ -1,0 +1,17 @@
+both classes implement Map. Insertion order is not preserve.
+
+Comparing HashMap and HashTable?
+
+
+        HashMap                                                                 Hashtable
+1- underlying data structure HashTable (HashCode)                       underlying data structure HashTable (HashCode)
+2- key-value                                                            key-value
+3- None-Synchronized(Multiple threads can access a methods at a time.   Synchronized (One thread can work on particular method, second thread have to wait)
+4- Not Thread Safe                                                      Thread Safe
+5- Performance is faster                                                Performance is low
+6- One Null key and multiple Values are accepted                        No null key and null Value
+
+
+both classes has same Map methods.
+
+

@@ -1,0 +1,21 @@
+ArrayList
+
+add()
+addAll()
+add(idx, Obj)
+size()
+remove(idx)
+removeAll()
+get(idx)
+set(idx, Obj)
+contains(Obj)
+isEmpty()
+
+there is no directly sort method in array list. We use Collections class methods.
+if we want to sort an array list all elements has tobe same type.
+Collections.sort(arrayList)
+for shuffle
+Collections.shuffle(arrayList)
+
+--default size is 10
+-- every time when we add or remove an element to arraylist new array list obejct created and the old one is goes to garbage

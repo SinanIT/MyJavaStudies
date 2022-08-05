@@ -1,0 +1,20 @@
+LinkedList class additionally implements Dequeue interface also. Dequeue implements Queue.
+
+when we choose array list when linked-list?
+
+- retrieving operations good with arraylist. no good for other operations because of shifting need to much effort.
+
+- ant insertions and deletions operations good with linked-list. there is no shifting on linked list.
+
+        in linked list every element or object called node. Every node divided in three part. previous element address, element, next element address.
+
+        ** if you have more number of retrieving operations we Should NOT use linked list
+
+        -- allows duplication
+        -- insertion order
+        -- null values allowed
+        -- no default size
+        some methods implemented from stack and queue
+
+        addFirst(obj); removeFirst(); getFirst(obj);
+        addLast(obj);  removeLast();  getLast(onj);
