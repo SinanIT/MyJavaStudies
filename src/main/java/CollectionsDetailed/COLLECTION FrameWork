@@ -10,7 +10,7 @@
 
     Array                                       Collections
     == fix size                                 == growable in nature
-    == Home-genius data                         == Homo and Hetro genius data
+    == Hom0-genius data                         == Homo and Hetro genius data
     == There is no underlying data structure    == Implemented by using underlying data structure
 
     MAIN INTERFACES of Collection Framework

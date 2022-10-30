@@ -8,7 +8,8 @@ There two main types of exception
 
 --exceptions are unexpected errors in Java
 -- It can handle by using try catch blocks
--- if there is child parent relationship catch block order is important and child should be first then parent.
+-- if there is child parent relationship catch block order is important
+and child should be first then parent.
 -- If there is no relationship between exceptions, order is not important.
 Compile time exceptions:
 -- FileNotFoundException occurs in Compile Time, if there is any issue in the Path of the file or in the existence of the file

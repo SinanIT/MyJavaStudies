@@ -12,10 +12,10 @@ contains(Obj)
 isEmpty()
 
 there is no directly sort method in array list. We use Collections class methods.
-if we want to sort an array list all elements has tobe same type.
+if we want to sort an array list all elements has to be same type.
 Collections.sort(arrayList)
 for shuffle
 Collections.shuffle(arrayList)
 
 --default size is 10
--- every time when we add or remove an element to arraylist new array list obejct created and the old one is goes to garbage
+-- every time when we add or remove an element to arraylist new array list object created and the old one is goes to garbage
