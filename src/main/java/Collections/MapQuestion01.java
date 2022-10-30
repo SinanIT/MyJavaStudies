@@ -7,7 +7,7 @@ public class MapQuestion01 {
     // Hellooo==> H=1, e=1, l=2, o=3
 
     public static void main(String[] args) {
-        System.out.println(getNumOfChars("Hellooo"));//{e=1, H=1, l=2, o=3}
+        System.out.println(getNumOfChars("Hellooooooo"));//{e=1, H=1, l=2, o=3}
 
     }
     public static HashMap<String, Integer> getNumOfChars(String str){
